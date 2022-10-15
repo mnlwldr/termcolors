@@ -5,10 +5,10 @@ ANSI color formatting for output in terminal
 # usage
 
 ```go
-fmt.Printf("%sHello World %s\n", TXT_RED, RESET)
-fmt.Printf("%sHello World %s\n", BACKGROUND_RED, RESET)
-fmt.Printf("%sHello World %s\n", UNDERLINE_RED, RESET)
-fmt.Printf("%sHello World %s\n", BOLD_RED, RESET)
+fmt.Printf("%sHello World %s\n", termcolors.TXT_RED, RESET)
+fmt.Printf("%sHello World %s\n", termcolors.BACKGROUND_RED, RESET)
+fmt.Printf("%sHello World %s\n", termcolors.UNDERLINE_RED, RESET)
+fmt.Printf("%sHello World %s\n", termcolors.BOLD_RED, RESET)
 ```
 
 # colors overview
